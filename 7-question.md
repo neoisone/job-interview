@@ -26,6 +26,7 @@ Multus CNI is useful in cases where network isolation is required e.g. Control P
 In openshift we can create a custom resource definition or CR and the we can make an annotated pod which can use that CR.
 
 Sample definition
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 apiVersion: "k8s.cni.cncf.io/v1"
 kind: NetworkAttachmentDefinition
