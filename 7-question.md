@@ -20,14 +20,6 @@ But with the release of Openshift 4.1, multus will be a supported feature.
 - Pods can gave multiple network interfaces
 The answer is yes they can have and I have my findings below.
 
-								    +++++++++++++++++++++
-				                                    + Kubernetes servers+   
-				++++++++++++++++++                  +++++++++++++++++++++	   
-	(Secure traffic)	+	POD	 +			   |
-	NW1---------------------+net0		 +			   |   (API comms)
-	NW2---------------------+net1	    eth0 +--------------------------
-	(User Traffic)	      	++++++++++++++++++
-
 
 Multus CNI is useful in cases where network isolation is required e.g. Control Plane. This also adds an advantage to secure the network using different channels for sensitive data.
 
